@@ -13,6 +13,24 @@
 		234D53C21AE883B40024DE32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234D53C11AE883B40024DE32 /* Images.xcassets */; };
 		234D53C51AE883B40024DE32 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 234D53C31AE883B40024DE32 /* LaunchScreen.xib */; };
 		234D53D11AE883B40024DE32 /* Hello_DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D53D01AE883B40024DE32 /* Hello_DataTests.swift */; };
+		234D53E01AE885140024DE32 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53DF1AE885140024DE32 /* AudioToolbox.framework */; };
+		234D53E21AE8851F0024DE32 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53E11AE8851F0024DE32 /* CFNetwork.framework */; };
+		234D53E41AE885250024DE32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53E31AE885250024DE32 /* CoreGraphics.framework */; };
+		234D53E61AE8852E0024DE32 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53E51AE8852E0024DE32 /* CoreLocation.framework */; };
+		234D53E81AE885360024DE32 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53E71AE885360024DE32 /* MobileCoreServices.framework */; };
+		234D53EA1AE8853F0024DE32 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53E91AE8853F0024DE32 /* QuartzCore.framework */; };
+		234D53EC1AE885520024DE32 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53EB1AE885520024DE32 /* Security.framework */; };
+		234D53EE1AE8855A0024DE32 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53ED1AE8855A0024DE32 /* StoreKit.framework */; };
+		234D53F01AE885610024DE32 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53EF1AE885610024DE32 /* SystemConfiguration.framework */; };
+		234D53F21AE8856B0024DE32 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53F11AE8856B0024DE32 /* libz.dylib */; };
+		234D53F41AE8857D0024DE32 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53F31AE8857D0024DE32 /* libsqlite3.dylib */; };
+		234D53F91AE88AAF0024DE32 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D53F81AE88AAF0024DE32 /* BackgroundView.swift */; };
+		234D53FB1AE88E290024DE32 /* ViewSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D53FA1AE88E290024DE32 /* ViewSettings.swift */; };
+		234D53FE1AE894000024DE32 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53FC1AE894000024DE32 /* Bolts.framework */; };
+		234D53FF1AE894000024DE32 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234D53FD1AE894000024DE32 /* Parse.framework */; };
+		234D54011AE894390024DE32 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D54001AE894390024DE32 /* UIColor.swift */; };
+		234D54031AE8CED20024DE32 /* ViewNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D54021AE8CED10024DE32 /* ViewNotes.swift */; };
+		234D54051AE8D1170024DE32 /* ViewAddNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234D54041AE8D1160024DE32 /* ViewAddNote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,24 @@
 		234D53CA1AE883B40024DE32 /* Hello DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello DataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		234D53CF1AE883B40024DE32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		234D53D01AE883B40024DE32 /* Hello_DataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_DataTests.swift; sourceTree = "<group>"; };
+		234D53DF1AE885140024DE32 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		234D53E11AE8851F0024DE32 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		234D53E31AE885250024DE32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		234D53E51AE8852E0024DE32 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		234D53E71AE885360024DE32 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		234D53E91AE8853F0024DE32 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		234D53EB1AE885520024DE32 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		234D53ED1AE8855A0024DE32 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		234D53EF1AE885610024DE32 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		234D53F11AE8856B0024DE32 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		234D53F31AE8857D0024DE32 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		234D53F81AE88AAF0024DE32 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		234D53FA1AE88E290024DE32 /* ViewSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewSettings.swift; sourceTree = "<group>"; };
+		234D53FC1AE894000024DE32 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		234D53FD1AE894000024DE32 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		234D54001AE894390024DE32 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		234D54021AE8CED10024DE32 /* ViewNotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewNotes.swift; sourceTree = "<group>"; };
+		234D54041AE8D1160024DE32 /* ViewAddNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAddNote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +79,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234D53F41AE8857D0024DE32 /* libsqlite3.dylib in Frameworks */,
+				234D53F21AE8856B0024DE32 /* libz.dylib in Frameworks */,
+				234D53F01AE885610024DE32 /* SystemConfiguration.framework in Frameworks */,
+				234D53FE1AE894000024DE32 /* Bolts.framework in Frameworks */,
+				234D53EE1AE8855A0024DE32 /* StoreKit.framework in Frameworks */,
+				234D53EC1AE885520024DE32 /* Security.framework in Frameworks */,
+				234D53FF1AE894000024DE32 /* Parse.framework in Frameworks */,
+				234D53EA1AE8853F0024DE32 /* QuartzCore.framework in Frameworks */,
+				234D53E81AE885360024DE32 /* MobileCoreServices.framework in Frameworks */,
+				234D53E61AE8852E0024DE32 /* CoreLocation.framework in Frameworks */,
+				234D53E41AE885250024DE32 /* CoreGraphics.framework in Frameworks */,
+				234D53E21AE8851F0024DE32 /* CFNetwork.framework in Frameworks */,
+				234D53E01AE885140024DE32 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,8 +129,13 @@
 				234D53BA1AE883B40024DE32 /* AppDelegate.swift */,
 				234D53BC1AE883B40024DE32 /* ViewController.swift */,
 				234D53BE1AE883B40024DE32 /* Main.storyboard */,
+				234D54041AE8D1160024DE32 /* ViewAddNote.swift */,
+				234D54021AE8CED10024DE32 /* ViewNotes.swift */,
+				234D53FA1AE88E290024DE32 /* ViewSettings.swift */,
 				234D53C11AE883B40024DE32 /* Images.xcassets */,
 				234D53C31AE883B40024DE32 /* LaunchScreen.xib */,
+				234D53F51AE889230024DE32 /* Libraries */,
+				234D53DA1AE884CD0024DE32 /* Frameworks */,
 				234D53B81AE883B40024DE32 /* Supporting Files */,
 			);
 			path = "Hello Data";
@@ -110,6 +164,35 @@
 				234D53CF1AE883B40024DE32 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		234D53DA1AE884CD0024DE32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				234D53FC1AE894000024DE32 /* Bolts.framework */,
+				234D53FD1AE894000024DE32 /* Parse.framework */,
+				234D53F31AE8857D0024DE32 /* libsqlite3.dylib */,
+				234D53F11AE8856B0024DE32 /* libz.dylib */,
+				234D53EF1AE885610024DE32 /* SystemConfiguration.framework */,
+				234D53ED1AE8855A0024DE32 /* StoreKit.framework */,
+				234D53EB1AE885520024DE32 /* Security.framework */,
+				234D53E91AE8853F0024DE32 /* QuartzCore.framework */,
+				234D53E71AE885360024DE32 /* MobileCoreServices.framework */,
+				234D53E51AE8852E0024DE32 /* CoreLocation.framework */,
+				234D53E31AE885250024DE32 /* CoreGraphics.framework */,
+				234D53E11AE8851F0024DE32 /* CFNetwork.framework */,
+				234D53DF1AE885140024DE32 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		234D53F51AE889230024DE32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				234D54001AE894390024DE32 /* UIColor.swift */,
+				234D53F81AE88AAF0024DE32 /* BackgroundView.swift */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +295,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				234D53FB1AE88E290024DE32 /* ViewSettings.swift in Sources */,
 				234D53BD1AE883B40024DE32 /* ViewController.swift in Sources */,
 				234D53BB1AE883B40024DE32 /* AppDelegate.swift in Sources */,
+				234D53F91AE88AAF0024DE32 /* BackgroundView.swift in Sources */,
+				234D54031AE8CED20024DE32 /* ViewNotes.swift in Sources */,
+				234D54051AE8D1170024DE32 /* ViewAddNote.swift in Sources */,
+				234D54011AE894390024DE32 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hello",
+					Data,
+					"$(PROJECT_DIR)/Hello",
+					Data,
+				);
 				INFOPLIST_FILE = "Hello Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +445,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Hello",
+					Data,
+					"$(PROJECT_DIR)/Hello",
+					Data,
+				);
 				INFOPLIST_FILE = "Hello Data/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +511,7 @@
 				234D53D61AE883B40024DE32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		234D53D71AE883B40024DE32 /* Build configuration list for PBXNativeTarget "Hello DataTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +520,7 @@
 				234D53D91AE883B40024DE32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
